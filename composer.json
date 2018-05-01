@@ -1,0 +1,37 @@
+{
+    "name": "boynoiz/greedy",
+    "type": "project",
+    "description": "HTTPs API Client with Event-Loop",
+    "authors": [
+        {
+            "name": "boynoiz",
+            "email": "boynoiz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "amphp/aerys": "^0.4.0@dev",
+        "amphp/amp": "^2",
+        "amphp/artax": "^3",
+        "amphp/socket": "^0.10",
+        "illuminate/support": "^5.5@dev",
+        "nesbot/carbon": "^1.23@dev",
+        "vlucas/phpdotenv": "^2.4@dev"
+    },
+    "require-dev": {
+        "amphp/phpunit-util": "^1",
+        "phpunit/phpunit": "^6",
+        "friendsofphp/php-cs-fixer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
